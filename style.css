@@ -5,11 +5,13 @@ body {
     font-family: Lato, sans-serif;
 }
 
-ul {
+.list {
     margin: 0;
     padding: 0px;
 }
 
+/* Невозможно заменить на индентификатор класса или id */
+/* При добавлении нового item'a, данный класс не будет добавлен*/
 button {
     background: none;
     border: 0px;
@@ -24,7 +26,7 @@ button:hover {
     color: #3a3A3a;
 }
 
-h3 {
+.headline {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -34,6 +36,8 @@ h3 {
     text-transform: uppercase;
 }
 
+/* Невозможно заменить на индентификатор класса или id */
+/* При добавлении нового item'a, данный класс не будет добавлен*/
 input[type="text"] {
     margin: 0;
     font-size: 18px;
@@ -94,7 +98,8 @@ input[type="text"]:focus {
 }
 
 /* Sections TODO-LIST & COMPLITED LIST*/
-
+/* Невозможно заменить на индентификатор класса или id */
+/* При добавлении нового item'a, данный класс не будет добавлен*/
 li {
     overflow: hidden;
     padding: 20px 0;
